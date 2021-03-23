@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ContactDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6013: The table/view 'C:\USERS\WIN 10\SOURCE\REPOS\CONTACTAPPLICATION\CONTACTAPI\CONTACTAPI\APP_DATA\CONTACTDATABASE.MDF.dbo.contact' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+        <EntityType Name="contact">
+          <Property Name="fname" Type="varchar" MaxLength="10" />
+          <Property Name="lname" Type="varchar" MaxLength="10" />
+          <Property Name="email" Type="varchar" MaxLength="50" />
+          <Property Name="phoneNumber" Type="int" />
+          <Property Name="sStatus" Type="varchar" MaxLength="10" />
+        </EntityType>-->
+  <EntityContainer Name="ContactDatabaseModelStoreContainer" />
+</Schema>
